@@ -105,10 +105,11 @@ Get the latest _release_ of the software with no compilation needed. See [Instal
 
     ```bash
     # Pass the -h option to see the help page
-    > python3 install.py -h
+    > pip install --upgrade jupyter
+    > python install.py -h
 
     # Otherwise a common install command is
-    > python3 install.py --sys-prefix
+    > python install.py --sys-prefix
     ```
 
 4.  Check that it installed with `jupyter kernelspec list` which should contain `java`.
